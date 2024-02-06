@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4175F8D32B72AD4300D67FE0 /* FXCalcu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8CD2B72AD4300D67FE0 /* FXCalcu.xcdatamodeld */; };
+		4175F8D42B72AD4300D67FE0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8D02B72AD4300D67FE0 /* CoreDataManager.swift */; };
+		4175F8D52B72AD4300D67FE0 /* FxResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8D22B72AD4300D67FE0 /* FxResult.swift */; };
 		417799902B722C4C00021B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177998F2B722C4C00021B5B /* AppDelegate.swift */; };
 		417799922B722C4C00021B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417799912B722C4C00021B5B /* SceneDelegate.swift */; };
 		417799942B722C4C00021B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417799932B722C4C00021B5B /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		31555AB4EF1E9B5160E2BABA /* Pods-ApiTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTesting.debug.xcconfig"; path = "Target Support Files/Pods-ApiTesting/Pods-ApiTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		34F0F952D9D0E216CFD1687E /* Pods-ApiTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTesting.release.xcconfig"; path = "Target Support Files/Pods-ApiTesting/Pods-ApiTesting.release.xcconfig"; sourceTree = "<group>"; };
+		4175F8CE2B72AD4300D67FE0 /* FXCalcu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FXCalcu.xcdatamodel; sourceTree = "<group>"; };
+		4175F8D02B72AD4300D67FE0 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4175F8D22B72AD4300D67FE0 /* FxResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxResult.swift; sourceTree = "<group>"; };
 		4177998C2B722C4C00021B5B /* ApiTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177998F2B722C4C00021B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		417799912B722C4C00021B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4175F8CC2B72AD4300D67FE0 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4175F8CD2B72AD4300D67FE0 /* FXCalcu.xcdatamodeld */,
+				4175F8CF2B72AD4300D67FE0 /* CoreDataManager */,
+				4175F8D12B72AD4300D67FE0 /* Model */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		4175F8CF2B72AD4300D67FE0 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4175F8D02B72AD4300D67FE0 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		4175F8D12B72AD4300D67FE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4175F8D22B72AD4300D67FE0 /* FxResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		417799832B722C4C00021B5B = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +114,7 @@
 				4177998F2B722C4C00021B5B /* AppDelegate.swift */,
 				417799912B722C4C00021B5B /* SceneDelegate.swift */,
 				417799A52B72394500021B5B /* Network Class */,
+				4175F8CC2B72AD4300D67FE0 /* Core Data */,
 				417799A32B7231AA00021B5B /* Json4Swift_Base.swift */,
 				417799932B722C4C00021B5B /* ViewController.swift */,
 				417799952B722C4C00021B5B /* Main.storyboard */,
@@ -228,9 +261,12 @@
 			files = (
 				417799AA2B72394500021B5B /* Constants.swift in Sources */,
 				417799942B722C4C00021B5B /* ViewController.swift in Sources */,
+				4175F8D32B72AD4300D67FE0 /* FXCalcu.xcdatamodeld in Sources */,
 				417799AC2B72394500021B5B /* AFWrepper.swift in Sources */,
+				4175F8D52B72AD4300D67FE0 /* FxResult.swift in Sources */,
 				417799A42B7231AA00021B5B /* Json4Swift_Base.swift in Sources */,
 				417799902B722C4C00021B5B /* AppDelegate.swift in Sources */,
+				4175F8D42B72AD4300D67FE0 /* CoreDataManager.swift in Sources */,
 				417799922B722C4C00021B5B /* SceneDelegate.swift in Sources */,
 				417799AD2B72394500021B5B /* Utils.swift in Sources */,
 			);
@@ -457,6 +493,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4175F8CD2B72AD4300D67FE0 /* FXCalcu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4175F8CE2B72AD4300D67FE0 /* FXCalcu.xcdatamodel */,
+			);
+			currentVersion = 4175F8CE2B72AD4300D67FE0 /* FXCalcu.xcdatamodel */;
+			path = FXCalcu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 417799842B722C4C00021B5B /* Project object */;
 }
