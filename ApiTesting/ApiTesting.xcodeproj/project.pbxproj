@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412CF9B82B7346A500B71480 /* postMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412CF9B72B7346A500B71480 /* postMethodVC.swift */; };
 		4175F8D32B72AD4300D67FE0 /* FXCalcu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8CD2B72AD4300D67FE0 /* FXCalcu.xcdatamodeld */; };
 		4175F8D42B72AD4300D67FE0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8D02B72AD4300D67FE0 /* CoreDataManager.swift */; };
 		4175F8D52B72AD4300D67FE0 /* FxResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175F8D22B72AD4300D67FE0 /* FxResult.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		31555AB4EF1E9B5160E2BABA /* Pods-ApiTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTesting.debug.xcconfig"; path = "Target Support Files/Pods-ApiTesting/Pods-ApiTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		34F0F952D9D0E216CFD1687E /* Pods-ApiTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiTesting.release.xcconfig"; path = "Target Support Files/Pods-ApiTesting/Pods-ApiTesting.release.xcconfig"; sourceTree = "<group>"; };
+		412CF9B72B7346A500B71480 /* postMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postMethodVC.swift; sourceTree = "<group>"; };
 		4175F8CE2B72AD4300D67FE0 /* FXCalcu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FXCalcu.xcdatamodel; sourceTree = "<group>"; };
 		4175F8D02B72AD4300D67FE0 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		4175F8D22B72AD4300D67FE0 /* FxResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxResult.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				4175F8CC2B72AD4300D67FE0 /* Core Data */,
 				417799A32B7231AA00021B5B /* Json4Swift_Base.swift */,
 				417799932B722C4C00021B5B /* ViewController.swift */,
+				412CF9B72B7346A500B71480 /* postMethodVC.swift */,
 				417799952B722C4C00021B5B /* Main.storyboard */,
 				417799982B722C4E00021B5B /* Assets.xcassets */,
 				4177999A2B722C4E00021B5B /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				417799A42B7231AA00021B5B /* Json4Swift_Base.swift in Sources */,
 				417799902B722C4C00021B5B /* AppDelegate.swift in Sources */,
 				4175F8D42B72AD4300D67FE0 /* CoreDataManager.swift in Sources */,
+				412CF9B82B7346A500B71480 /* postMethodVC.swift in Sources */,
 				417799922B722C4C00021B5B /* SceneDelegate.swift in Sources */,
 				417799AD2B72394500021B5B /* Utils.swift in Sources */,
 			);
